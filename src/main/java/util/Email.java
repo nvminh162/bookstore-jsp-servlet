@@ -11,14 +11,12 @@ import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
-import javax.activation.DataHandler;
-import javax.activation.DataSource;
 
 public class Email {
-	// Email: tungletest1.email@gmail.com
-	// Password: nebeekfipcstxcox
-	static final String from = "tungletest1.email@gmail.com";
-	static final String password = "xqbbbcqkdymqlebv";
+	// Email: nvminh1602@gmail.com
+	// Password: eyklfasdqgjjpjtl
+	static final String from = "nvminh1602@gmail.com";
+	static final String password = "eyklfasdqgjjpjtl";
 
 	public static boolean sendEmail(String to, String tieuDe, String noiDung) {
 		// Properties : khai báo các thuộc tính
@@ -78,7 +76,7 @@ public class Email {
 
 	public static void main(String[] args) {
 		for (int i = 0; i < 10; i++) {
-			Email.sendEmail("Email của người nhận", System.currentTimeMillis() + "", "Đây là phần nội dung!");
+			Email.sendEmail("nvminh162@gmail.com", System.currentTimeMillis() + "", "Đây là phần nội dung!");
 		}
 
 	}
